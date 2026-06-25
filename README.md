@@ -12,17 +12,17 @@ An interactive Power BI dashboard analysing PhonePe payment transaction data to 
 
 ## Project Overview
 
-This project simulates a real-world payment analytics use case inspired by PhonePe. The goal was to build an end-to-end BI solution — from raw data to a fully interactive dashboard — covering data modelling, DAX calculations, and visual design.
+This project simulates a real-world payment analytics use case inspired by PhonePe. The goal was to build an end-to-end BI solution, covering everything from raw data to a fully interactive dashboard, including data modelling, DAX calculations, and visual design.
 
 ---
 
 ## Tech Stack
 
-- **Power BI Desktop** — Dashboard development
-- **DAX** — Custom measures and time intelligence
-- **Power Query** — Data cleaning and transformation
-- **Excel** — Data source
-- **Figma** — Dashboard layout design
+- **Power BI Desktop** for dashboard development
+- **DAX** for custom measures and time intelligence
+- **Power Query** for data cleaning and transformation
+- **Excel** as the data source
+- **Figma** for dashboard layout design
 
 ---
 
@@ -30,9 +30,9 @@ This project simulates a real-world payment analytics use case inspired by Phone
 
 Star Schema with 3 tables:
 
-- `All_Transactions` (Fact Table) — Amount, Date, Payment Status, Service, User ID
-- `All_Users` (Dimension Table) — User ID, Name, Age, Age Segment, Join Date
-- `Date_Table` (Dimension Table) — Date, Month, Quarter, Weekday, Weekend
+- `All_Transactions` (Fact Table) - Amount, Date, Payment Status, Service, User ID
+- `All_Users` (Dimension Table) - User ID, Name, Age, Age Segment, Join Date
+- `Date_Table` (Dimension Table) - Date, Month, Quarter, Weekday, Weekend
 
 ---
 
